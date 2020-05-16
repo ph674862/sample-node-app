@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/healthcheck', function(req, res, next) {
-  res.send({data:{message:"Up and Running"}})
+  res.send({data:{message:"hello from  azure 11"}})
 });
 
 module.exports = router;
